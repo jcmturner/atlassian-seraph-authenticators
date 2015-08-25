@@ -33,11 +33,11 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-            <groupId>com.atlassian.confluence</groupId>
-            <artifactId>confluence</artifactId>
-            <version>${confluence.version}</version>
-            <scope>provided</scope>
-        </dependency>
+			<groupId>com.atlassian.confluence</groupId>
+			<artifactId>confluence</artifactId>
+			<version>${confluence.version}</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-servlet-api</artifactId>
@@ -51,4 +51,18 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</connection>
+		<url>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</url>
+		<developerConnection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</developerConnection>
+	</scm>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.2</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>
