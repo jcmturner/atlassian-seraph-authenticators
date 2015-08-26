@@ -51,6 +51,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	
 	<scm>
 		<connection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</connection>
 		<url>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</url>
