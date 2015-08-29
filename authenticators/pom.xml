@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.jtnet.atlassian.seraph</groupId>
 	<artifactId>authenticators</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<properties>
 		<atlassianSeraph.version>3.0.3</atlassianSeraph.version>
 		<tomcat.version>8.0.23</tomcat.version>
@@ -61,7 +60,8 @@
 		<connection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</connection>
 		<url>https://github.com/jcmturner/atlassian-seraph-authentictors.git</url>
 		<developerConnection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</developerConnection>
-	</scm>
+	  <tag>v0.0.1</tag>
+  </scm>
 	<build>
 		<plugins>
 			<plugin>
