@@ -59,8 +59,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</connection>
 		<url>https://github.com/jcmturner/atlassian-seraph-authentictors.git</url>
-		<developerConnection>scm:git:git@github.com:jcmturner/atlassian-seraph-authentictors.git</developerConnection>
-	 	<!-- 		<developerConnection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</developerConnection> --> 
+		<!-- <developerConnection>scm:git:git@github.com:jcmturner/atlassian-seraph-authentictors.git</developerConnection> --> 
+	 	<developerConnection>scm:git:https://github.com/jcmturner/atlassian-seraph-authentictors.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	<build>
